@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 def insert(cursor):
     from scraping import searcher
     #日本語リスト

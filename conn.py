@@ -1,7 +1,4 @@
-#import psycopg2
-#import os,sys
-#from scraping import searcher
-
+# -*- coding:utf-8 -*-
 def connectDB():
     import psycopg2, os, sys
     from insertation import insert
@@ -27,7 +24,3 @@ def connectDB():
     connection.commit()
     cursor.close()
     connection.close()
-
-#if __name__ == '__main__':
-#    connectDB()
-
